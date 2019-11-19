@@ -13,7 +13,7 @@ public class menuak {
 			menu=Integer.parseInt(scan.nextLine());
 			
 			
-		}
+		}while(menu!=0);
 		
 	}
 
