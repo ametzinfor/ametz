@@ -11,6 +11,8 @@ public class menuak {
 		int aukera=0;
 		int z1=0;
 		int z2=0; 
+		int z;
+		int faktoriala = 1;
 		do{
 			System.out.println("Menu: 1-Suma, 2-Resta, 3-Multiplicacion, 4-Division");
 			aukera=Integer.parseInt(scan.nextLine());
@@ -38,6 +40,18 @@ public class menuak {
 			case 4: // 4 aukera dividir
 				System.out.println("Dividir");
 				System.out.println(z1 / z2);
+				break;
+			case 5:
+				System.out.println("Sartu faktoriala sartzeko zenbakia");
+				z=Integer.parseInt(scan.nextLine());
+			
+				
+				for(int i = 1; i <=z; i++){
+					faktoriala = faktoriala * i;
+					
+					
+				}
+				System.out.println(faktoriala);
 				break;
 			
 			
