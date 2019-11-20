@@ -24,16 +24,20 @@ public class menuak {
 			
 			case 1: // 1 aukera Suma
 				System.out.println("Suma");
+				System.out.println(z1 + z2);
 				break;
 			case 2: // 2 aukera resta
 				System.out.println("Resta");
+				System.out.println(z1 - z2);
 				break;
 				
 			case 3: // 3 aukera multiplicación
 				System.out.println("Multiplicacion");
+				System.out.println(z1 * z2);
 				break;
 			case 4: // 4 aukera dividir
 				System.out.println("Dividir");
+				System.out.println(z1 / z2);
 				break;
 			
 			
